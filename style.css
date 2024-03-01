@@ -1,4 +1,4 @@
-.body {
+body {
 background-color:#FFF7B0 ;    
 border: 25mm;
 border-color:#F6DE89 ;
@@ -11,6 +11,7 @@ border-color:#F6DE89 ;
 
 .topnav {
   background-color: #F6DE89;
+  border-radius: 5mm;
   overflow: hidden;
 }
 
@@ -26,7 +27,8 @@ border-color:#F6DE89 ;
 
 
 .topnav a:hover {
-  background-color: #ddd;
+  background-color:#EDCF63 ;
+  border-radius: 3mm;
   color: black;
 }
 
@@ -34,6 +36,5 @@ border-color:#F6DE89 ;
 .topnav a.active {
   background-color: #EDCF63;
   border-radius: 3mm;
-  background-size: 10mm, 15mm;
-  color: white;
+  color: black;
 }
