@@ -38,3 +38,24 @@ border-color:#F6DE89 ;
   border-radius: 3mm;
   color: black;
 }
+
+.h1 {
+  font-family: serif;
+}
+
+.img {
+  border-radius: 20mm;
+border-width: 20mm;
+}
+.vl {
+  border-left: 6px solid #F6DE89  ;
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 0;
+}
+
+.projplaceimg {
+width:30% ;
+}
