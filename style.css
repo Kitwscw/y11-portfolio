@@ -11,7 +11,7 @@ border-color:#F6DE89 ;
 
 .topnav {
   background-color: #F6DE89;
-  border-radius: 5mm;
+  border-radius: 5mm 5mm 0mm 5mm;
   overflow: hidden;
 }
 
@@ -47,15 +47,32 @@ border-color:#F6DE89 ;
   border-radius: 20mm;
 border-width: 20mm;
 }
-.vl {
-  border-left: 6px solid #F6DE89  ;
-  height: 100%;
-  position: absolute;
-  left: 50%;
-  margin-left: -3px;
-  top: 0;
-}
 
 .projplaceimg {
-width:30% ;
+width:40% ;
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #F6DE89;
+  float:right;
+  border-radius: 0mm 0mm 5mm 5mm;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+
+li a:hover {
+  background-color: #EDCF63;
+  color: black;
+  border-radius: 3mm;
 }

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <div class="topnav">
+        <a href="index.html">Home</a>
+        <a class="active" href="#project1.html">Project 1</a>
+      <a href="infoabt.html">Info about me</a>
+    </div>
+    <ul>
+        <li><a onclick="scrollcenter('final')">final outcome</a></li>
+        <li><a href="#finalP">end users</a></li>
+        <li><a href="pp">requirements</a></li>
+        <li><a href="pp">implications</a></li>
+        <li><a href="pp">development</a></li>
+    </ul>
+<h1>project 1: portfolio </h1>
+    <img class="projplaceimg" src="placeholder-img.png" alt="IMAGE GOES HERE">
+    <p>This project is a portfolio to display my work for... various reasons</p>
+    
+
+
+    <script>
+function scrollcenter(el) {
+
+    var element=document.getElementById((el.toString())).tolowercase()+"P");
+    element.scrollIntoView({behavior: "smooth", block: "center"})
+}
+
+
+    </script>
+
+</body>
+</html>
