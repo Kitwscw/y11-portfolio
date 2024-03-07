@@ -7,11 +7,37 @@ border-color:#F6DE89 ;
 .p {
   font-family: serif;  
 }
+.nav-rounded {
+  background-color: #F6DE89;
+  border-radius: 5mm 5mm 0mm 5mm;
+  overflow: hidden;
+}
+.nav-rounded a {
+  float: left;
+  color: #333;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
 
+
+.nav-rounded a:hover {
+  background-color:#EDCF63 ;
+  border-radius: 3mm;
+  color: black;
+}
+
+
+.nav-rounded a.active {
+  background-color: #EDCF63;
+  border-radius: 3mm;
+  color: black;
+}
 
 .topnav {
   background-color: #F6DE89;
-  border-radius: 5mm 5mm 0mm 5mm;
+  border-radius: 5mm;
   overflow: hidden;
 }
 
@@ -39,6 +65,7 @@ border-color:#F6DE89 ;
   color: black;
 }
 
+
 .h1 {
   font-family: serif;
 }
@@ -61,6 +88,7 @@ ul {
   background-color: #F6DE89;
   float:right;
   border-radius: 0mm 0mm 5mm 5mm;
+  height:1000vh;
 }
 
 li a {
@@ -76,3 +104,4 @@ li a:hover {
   color: black;
   border-radius: 3mm;
 }
+
