@@ -80,7 +80,7 @@ width:40% ;
 
 }
 
-ul {
+.sidenav {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -91,7 +91,7 @@ ul {
   height:1000vh;
 }
 
-li a {
+.sidenav a {
   display: block;
   color: #000;
   padding: 8px 16px;
@@ -99,7 +99,7 @@ li a {
 }
 
 
-li a:hover {
+.sidenav a:hover {
   background-color: #EDCF63;
   color: black;
   border-radius: 3mm;
