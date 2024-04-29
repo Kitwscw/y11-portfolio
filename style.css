@@ -116,3 +116,8 @@ width:40% ;
   border-width: 50px;
   border-color: #F6DE89;
 }
+
+.rounded-edges{
+  border-radius: 10mm;
+  
+}
